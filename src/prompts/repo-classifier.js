@@ -41,6 +41,7 @@ Scoring criteria:
 - **EM signal value** is more important than code complexity
 - A simple project with a great README, ADRs, and a CONTRIBUTING.md scores higher than a complex project with no docs
 - Forks of tutorials with no modifications should be archived
+- Community build projects, like vue vixens course or changers hub courses, should be kept if they show leadership in organizing, curating, or contributing to the community
 - Course/tutorial projects (Alura, Udemy, etc.) should be archived unless significantly extended
 - Old hiring challenges (>3 years, no updates) should be archived unless the code is impressive
 - Projects showing systems thinking, architecture decisions, or team-enablement are gold
