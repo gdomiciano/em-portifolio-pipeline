@@ -14,7 +14,7 @@ import { fileURLToPath } from 'url';
 import dotenv from 'dotenv';
 import { buildRepoClassifierPrompt, PROMPT_VERSION } from './prompts/repo-classifier.js';
 
-dotenv.config();
+dotenv.config({ override: true });
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = path.join(__dirname, '..', 'output', 'repos.json');

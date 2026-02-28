@@ -9,7 +9,9 @@
     "analyze": "node src/analyze.js",
     "sync": "node src/notion-sync.js",
     "ingest:analyze": "node src/pipeline.js ingest analyze",
-    "analyze:sync": "node src/pipeline.js analyze sync"
+    "analyze:sync": "node src/pipeline.js analyze sync",
+    "generate-prompt": "node src/generate-batch-prompt.js",
+    "import-analysis": "node src/import-manual-analysis.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.37.0",
